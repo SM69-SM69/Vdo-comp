@@ -66,18 +66,7 @@ async def help_message_f(client, message):
     ## Force Sub ##
     await message.reply_text(
         Localisation.HELP_MESSAGE,
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton('Updates Channel', url='https://t.me/UniversalBotsUpdate')
-                ],
-                [
-                    InlineKeyboardButton('Support Group', url='https://t.me/UniversalBotsSupport')
-                ],
-                [
-                    InlineKeyboardButton('Developer', url='https://t.me/Technical_Jigar'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works
-                ]
-            ]
-        ),
+        
+         
         quote=True
     )
